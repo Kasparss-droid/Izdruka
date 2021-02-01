@@ -44,3 +44,14 @@ print(myString[8]) #izdrukā 9. rakstzīmi
 print(myString[13]) #izdrukā 14. rakstzīmi
 print(myString[-3]) #izdrukā 14. rakstzīmi
 print(myString[-1]) #izdrukā pēdējo rakstzīmi
+
+myString="abcdefghijklmnoprstuvz"
+print(myString)
+print(myString[2]) #izdrukā c
+print(myString[2:]) #izdrukā no c uz priekšu
+print(myString[:3]) #izdrukā līdz 2. indeksam (neietver galapunktu)
+print(myString[3:6]) #izdrukā no 4. līdz 6. rakstzīmei
+print(myString[::]) #izdrukā visu
+print(myString[::2]) #izdrukā katru otro jeb ar soli 2
+print(myString[2:7:2]) #izdrukā no 3. rakstzīmes (2.indekss) līdz 7. rakstzīmei katru otro
+print(myString[::-1]) #izdrukā otrā virzienā
